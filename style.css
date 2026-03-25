@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #2a9d8f;
+    background-color: #1b3a4b;
     color: white;
 }
 
@@ -37,6 +37,11 @@ body {
 
 .navbar ul li a:hover {
     text-decoration: underline;
+}
+
+.navbar .logo img {
+	height: 1.5rem;
+	margin-right: 1rem;
 }
 
 /* main (hero) section */
@@ -142,7 +147,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #264653;
+    background-color: #0a1f2e;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -180,9 +185,30 @@ footer {
 .dest-card img {
 	width: 100%;
 	height: 200px;
+    object-fit: cover;
 }
 
 .dest-card:hover {
 	transform: scale(1.05);
 }
+	
+	
+/* about page */
+#about-hero {
+	height: 60vh;
+	justify-content: start;
+	text-align: left;
+	background: url(images/about-image.jpg) no-repeat;
+	background-size: cover;
+	background-position: center 25%;
+}
+
+#about-hero-text{
+	margin-left: 2rem;
+}
+
+#about-hero-text p{
+	font-size: 1.75rem;
+}
+
 	
