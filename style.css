@@ -192,23 +192,5 @@ footer {
 	transform: scale(1.05);
 }
 	
-	
-/* about page */
-#about-hero {
-	height: 60vh;
-	justify-content: start;
-	text-align: left;
-	background: url(images/about-image.jpg) no-repeat;
-	background-size: cover;
-	background-position: center 25%;
-}
-
-#about-hero-text{
-	margin-left: 2rem;
-}
-
-#about-hero-text p{
-	font-size: 1.75rem;
-}
 
 	

@@ -1,0 +1,88 @@
+	
+/* about page */
+#about-hero {
+	height: 60vh;
+	justify-content: start;
+	text-align: left;
+	background: url(images/about-image.jpg) no-repeat;
+	background-size: cover;
+	background-position: center 25%;
+}
+
+#about-hero-text{
+	margin-left: 2rem;
+}
+
+#about-hero-text p{
+	font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #264653;
+    margin-top: 1.7rem;
+    padding: 10px;
+}
+
+p:not(#footer) {
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* contact page */
+
+.contact-head h1 {
+    color: #264653;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    width: 75%;
+    margin-left: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #555555;
+    border: 1px solid black;
+    background: linear-gradient(135deg, #90d5ff, #ffffff, #cccccc);
+}
+
+label {
+	display: block;
+	font-size: 1.2rem;
+	font-weight: 650;
+}
+
+input{
+	box-sizing: border-box;
+    border: 1px solid black;
+	height: 2rem;
+	width: 70%;
+	margin-bottom: 10px;
+	padding: 2px;
+	font-size: 1rem;
+}
+
+textarea {
+    width: 70%;
+}
+
+button {
+    margin-top: 1rem;
+    width: 70%;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75)
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+

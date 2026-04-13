@@ -1,0 +1,49 @@
+.destinations-summary {
+    margin: 2rem;
+    max-width: 100%; 
+    padding: 1rem;
+    background-color: #1b3a4b; 
+    color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.destinations-summary h2 {
+    text-align: center;
+    color: #f4a261;
+    margin-bottom: 1rem;
+}
+
+.destinations-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #ffffff;
+}
+
+.destinations-summary th,
+.destinations-summary td {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+
+.destinations-summary tbody td, th {
+    background-color: rgba(255, 255, 255, 0.05); 
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.destinations-summary tbody td:hover {
+    background-color: rgba(255, 255, 255, 0.15); 
+    transform: scale(1.02); 
+}
+
+.destinations-summary th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.destinations-summary td {
+    font-weight: 400;
+    font-size: 1rem;
+}
