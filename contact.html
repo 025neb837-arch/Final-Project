@@ -40,19 +40,25 @@
         <h2>Send a Message</h2>
 
         <form>
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required>
 
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email" required>
+            <fieldset>
 
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required placeholder="'Please give us your feedback"></textarea>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="user@example.com" required>
 
-            <button type="submit">Send Message</button>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your thoughts and concerns..."></textarea>
+
+            </fieldset>
+            
+
+            <input type="submit" class="button" value="Send Message">
         </form>
     </div>
 

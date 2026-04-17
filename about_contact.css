@@ -30,6 +30,27 @@ p:not(#footer) {
     text-align: justify;
 }
 
+dl {
+    padding: 10px;
+}
+
+dt {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #264653; 
+    margin-top: 1rem;
+
+}
+
+
+dd {
+    margin-left: 1.2rem;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    color: #444;
+    border-left: 2px solid #E8B168; 
+}
+
 /* contact page */
 
 .contact-head h1 {
@@ -41,14 +62,21 @@ p:not(#footer) {
 }
 
 form{
-    width: 75%;
+    width: 80%;
     margin-left: 1rem;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #555555;
-    border: 1px solid black;
     background: linear-gradient(135deg, #90d5ff, #ffffff, #cccccc);
 }
+
+fieldset {
+	padding: 15px;
+	margin: 1rem;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #aaaaaa;
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
 
 label {
 	display: block;
@@ -68,20 +96,27 @@ input{
 
 textarea {
     width: 70%;
-}
-
-button {
-    margin-top: 1rem;
-    width: 70%;
+    margin-bottom: 10px;
     padding: 5px;
     font-size: 1rem;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.75)
-
 }
 
-button:hover {
-    cursor: pointer;
+.button {
+	height: 2.2rem;
+	border-radius: 10px;
+	color: white;
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #2c5569;
+	transition: background 0.3s;
+	border: 0px;
+	padding: 5px;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #1b3a4b;
+	cursor: pointer;
 }
 
 

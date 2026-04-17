@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itinerary</title>
+	<link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="itinerary.css">
 </head>
 <body>
@@ -73,7 +74,7 @@
 			<input type="text" id="name" name="name" placeholder="Your Full Name" required>
 			
 			<label for="email"> Email Address: </label>
-			<input type="email" id="email" name="email" placeholder="user@example.com">
+			<input type="email" id="email" name="email" placeholder="user@example.com" required>
 			
 			<label for="phone"> Phone number: </label>
 			<input type="tel" id="phone" name="phone">
@@ -107,7 +108,7 @@
 		<fieldset>
 			<legend>Choose Your Destination(s)</legend>
 
-			<input type="checkbox" id="kathmandu" name="destination" value="Kathmandu">
+			<input type="checkbox" id="kathmandu" name="destination" value="Kathmandu" required>
 			<label for="kathmandu" class="inline">Kathmandu</label>
 			<br>
 			<input type="checkbox" id="pokhara" name="destination" value="Pokhara">
